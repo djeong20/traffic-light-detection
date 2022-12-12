@@ -35,6 +35,14 @@ traffic-light-detection
 --score_th 0.4
 ```
 
+#### prediction results
+
+| demo images |
+| ---         | 
+| <img src="./demo_img/demo_1.png" width="300"> |
+| <img src="./demo_img/demo_2.png" width="300"> |
+| <img src="./demo_img/demo_3.png" width="300"> |
+
 ### Training and evaluation
 
 ```
