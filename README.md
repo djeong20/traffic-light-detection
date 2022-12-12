@@ -19,6 +19,7 @@ traffic-light-detection
 ├── loader.py
 ├── train.py
 ├── demo.py
+├── utils.py
 └── dataset
     ├── Annotations
     ├── dayTrain
@@ -43,10 +44,10 @@ traffic-light-detection
 | <img src="./demo_img/demo_2.png" width="300"> |
 | <img src="./demo_img/demo_3.png" width="300"> |
 
-### Training and evaluation
+### Training
 
 ```
- python3 demo.py \
+ python3 train.py \
 --batch_size 16 \
 --epoch 5 \
 --s 0.5 \
